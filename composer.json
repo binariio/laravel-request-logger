@@ -13,5 +13,7 @@
             "iMi\\LaravelRequestLogger\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true
 }
