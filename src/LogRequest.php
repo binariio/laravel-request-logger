@@ -25,7 +25,7 @@ class LogRequest
         }
         $post = $request->request->all();
         if (count($post) > 0) {
-            $entry->post = var_export($post, true);
+            //$entry->post = var_export($post, true);
         }
         $cookies = $request->cookies->all();
         if (count($cookies) > 0) {
